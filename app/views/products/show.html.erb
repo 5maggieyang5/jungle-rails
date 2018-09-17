@@ -26,27 +26,29 @@
       </div>
     </div>
 
-    <h1>Reviews: </h1>
-    <div class="row">
-      <div class="col-sm-12">
-        <dl class="dl-horizontal">
-          <% @product.reviews.each do |review| %>
-            <% @review = review %>
-          <div id="review">
-            <dt>Rating</dt>
-            <dd><%= @review.rating %></dd>
-            <dt>Description</dt>
-            <dd><%= @review.description %></dd>
-            <dt>User</dt>
-            <dd><%= @review.user.first_name %></dd>
-          </div>
-          <% end %>
+    <div class="order-summary jumbotron">
+      <h2 id="review_title">Reviews: </h2>
 
-        </dl>
+        <%= render 'review'  %>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <dl class="dl-horizontal">
+            <% @product.reviews.reverse.each do |review| %>
+              <% @review = review %>
+            <div id="review">
+              <dt>Rating</dt>
+              <dd><%= @review.rating %></dd>
+              <dt>Description</dt>
+              <dd><%= @review.description %></dd>
+              <dt>User</dt>
+              <dd><%= @review.user.first_name %></dd>
+            </div>
+            <% end %>
+          </dl>
+        </div>
       </div>
-      <li></li>
     </div>
-
   </article>
 
 </section>
