@@ -2,6 +2,13 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Final Product
+!["Admin page"]()
+!["Login page"]()
+!["Main page"]()
+!["Order page"]()
+!["Product detail & review page"]()
+!["Register page"]()
 
 ## Setup
 
