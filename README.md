@@ -3,12 +3,12 @@
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
 ## Final Product
-!["Admin page"]()
-!["Login page"]()
-!["Main page"]()
-!["Order page"]()
-!["Product detail & review page"]()
-!["Register page"]()
+!["Admin page"](https://raw.githubusercontent.com/5maggieyang5/jungle-rails/master/docs/amin_page.png)
+!["Login page"](https://raw.githubusercontent.com/5maggieyang5/jungle-rails/master/docs/login_page.png)
+!["Main page"](https://raw.githubusercontent.com/5maggieyang5/jungle-rails/master/docs/main-page.png)
+!["Order page"](https://raw.githubusercontent.com/5maggieyang5/jungle-rails/master/docs/order_page.png)
+!["Product detail & review page"](https://raw.githubusercontent.com/5maggieyang5/jungle-rails/master/docs/product_review_page.png)
+!["Register page"](https://raw.githubusercontent.com/5maggieyang5/jungle-rails/master/docs/register_page.png)
 
 ## Setup
 
